@@ -1,0 +1,4 @@
+applications:
+- name: helionce-node
+  description : NodeJS hellow world web app.
+  mem: 256M
