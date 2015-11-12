@@ -6,13 +6,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.13.3",
-    "moment": "2.4.x"
+    "express": "^4.13.3"
   },
   "devDependencies": {
     "mocha": "1.21.x",
     "should": "4.0.x",
-    "rewire": "x"
   },
   "scripts": {
     "test" : "mocha -t 300000 test",
