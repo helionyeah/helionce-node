@@ -8,6 +8,16 @@
   "dependencies": {
     "express": "^4.13.3",
     "moment": "2.4.x",
+    "gulp": "x",
+    "cheerio": "x",
+    "mongoose": "x",
+    "hapi": "x",
+    "request": "x",
+    "underscore": "x",
+    "redis": "x",
+    "react": "x",
+    "jade": "x",
+    "passport": "x",
     "q": "x",
     "lodash": "x"
   },
