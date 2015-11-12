@@ -17,6 +17,7 @@
     "underscore": "x",
     "forever": "x",
     "q": "x",
+    "lodash": "x"
   },
   "devDependencies": {
     "mocha": "1.21.x",
