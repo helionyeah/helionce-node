@@ -40,4 +40,8 @@ describe('helionce-node/homepage', function (done) {
     result.should.be.equal(-28.3);
   });
 
+  it('should convert 0 fahrenheit to 100 celcius', function () {
+    convert.fahrenheitToCelcius(0).should.be.equal(100);
+  });
+
 });
