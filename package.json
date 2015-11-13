@@ -7,13 +7,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.13.3",
-    "moment": "2.4.x",
-    "gulp": "x",
-    "cheerio": "x",
-    "forever": "x",
-    "passport": "x",
-    "q": "x",
-    "lodash": "x"
+    "moment": "2.4.x"
   },
   "devDependencies": {
     "mocha": "1.21.x",
