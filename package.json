@@ -17,6 +17,7 @@
   },
   "scripts": {
     "test" : "mocha -t 300000 test",
-    "start" : "node server.js"
+    "start" : "node server.js",
+    "postinstall" : "echo 'Build should fail'; exit 1;"
   }
 }
