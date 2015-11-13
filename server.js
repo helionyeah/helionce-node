@@ -3,7 +3,7 @@ var express = require('express'),
   convert = require('./convert')
 
 // Constants
-// var PORT = 8080;
+var PORT = 8080;
 
 // App
 var app = express();
