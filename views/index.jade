@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+    title!= title
+    link(href='/stylesheets/bootstrap.min.css', rel='stylesheet')
+  body
+    div(style='width:600px;margin-right: 0;margin-left: 0;background-color: #fff;border-color: #ddd;border-width: 1px;border-radius: 4px 4px 0 0;padding-left:10px')
+      h1!= message
+      table(class="table table-striped")
+        each val, index in environmentVariables
+          tr
+            td(style='font-weight:bold')!= index
+            td!= val
