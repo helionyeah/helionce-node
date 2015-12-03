@@ -1,9 +1,7 @@
 var express = require('express'),
   moment = require('moment'),
-  convert = require('./convert')
-
-// Constants
-var PORT = 8080;
+  convert = require('./convert'),
+  port = process.env.PORT || 8080;
 
 // App
 var app = express();
@@ -28,5 +26,5 @@ app.get('/fahrenheitToCelcius', function(req, res) {
   res.send(fahrenheitTemperature + '&#8457 is ' + celciusTemperature + '&#8451 to the nearest tenth.');
 });
 
-app.listen(PORT);
-console.log('Running on http://localhost:' + PORT);
+app.listen(parseInt(port, 10));
+console.log('Running on http://localhost:' + port);
