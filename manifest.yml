@@ -1,4 +1,4 @@
 applications:
-- name: helionce-node
+- name: helionce-node-docker-test
   description : NodeJS hello world web app.
   mem: 256M
